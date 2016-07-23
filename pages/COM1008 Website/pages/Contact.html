@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<!----------------------------------------------------------------------------------------------------------------------
+        The Diamond page for the COM1008 assessment
+        Author: Kristofer Box
+        Created: 10/11/2015
+        Last Updated: 07/12/2015
+----------------------------------------------------------------------------------------------------------------------->
+    <meta charset="UTF-8">
+    <title>Contact | COM1008 Web and Technology</title>
+    <link href="../css/reset.css" rel="stylesheet" />
+    <link href="../css/main/main.css" rel="stylesheet"/>
+    <link href="../css/main/mainWide.css" rel = "stylesheet" />
+    <link href="../css/main/mainNarrow.css" rel = "stylesheet" />
+    <link href="../css/main/mainMobile.css" rel = "stylesheet" />
+    <link href="../css/contact/contact.css" rel = "stylesheet" />
+    <link href="../css/contact/contactNarrow.css" rel = "stylesheet" />
+    <link href="../css/contact/contactMobile.css" rel = "stylesheet" />
+</head>
+
+<body>
+    <div id="headAndNavWrapper">
+<!--------------------- Header that includes the title and link to the accessibility page ----------------------------->
+        <header>
+            <div id="accessibility">
+                <a href="Accessibility.html">Accessibility</a>
+            </div>
+            <div id="Title">
+                <h1><a href="../index.html">Kristofer <span>J.</span> Box</a></h1>
+            </div>
+        </header>
+
+<!--------------------- Navigation bar that resizes easily depending on size of the screen ---------------------------->
+        <nav>
+            <a href="#" id="toggleMenu" class="navButton"><img src="../images/Menu Button.png" alt="Open Menu" /></a>
+
+            <!--- The normal navigation bar that is disabled when a mobile is detected --->
+            <ul id="normalNav">
+                <li><a href="About Me.html">About Me</a></li>
+                <li><a href="Degree.html">My Degree</a></li>
+                <li><a href="News.html">News</a></li>
+                <li><a href="The Diamond.html">The Diamond</a></li>
+                <li><a href="Contact.html">Contact Me</a></li>
+            </ul>
+
+            <!--- The mobile navigation that is activated when a mobile is detected --->
+            <ul class="mobileNav" id="menu">
+                <li><a href="About Me.html">About Me</a></li>
+                <li><a href="Degree.html">My Degree</a></li>
+                <li><a href="News.html">News</a></li>
+                <li><a href="The Diamond.html">The Diamond</a></li>
+                <li><a href="Contact.html">Contact Me</a></li>
+            </ul>
+        </nav>
+
+        <!--- Script for Mobile Menu --->
+        <script src="../javascript/menuAction.js"></script>
+    </div>
+    <div id="otherWrapper">
+        <div id="mainWrapper">
+<!---------------------- Allows the user to send a message to me by filling in the form below ------------------------->
+            <main>
+                <h2>Contact</h2>
+                <p> This page allows you to fill in a form with your name, email address and some comments and send
+                    them to me. I will try and get back to you as soon as possible.
+                </p>
+
+                <form name = "contactMeForm" action ="http://www.dcs.shef.ac.uk/cgi-bin/FormMail.pl" method="get">
+
+                    <input type="hidden" name="recipient" value="kjbox1@sheffield.ac.uk"/>
+                    <input type="hidden" name="subject" value="Contact Me" />
+
+                    <div class="labelStyle">
+                        <label for="GET-name">Name </label>
+                    </div>
+
+                    <div class="inputStyle">
+                        <input id = "GET-name" type = "text" name="Name" maxlength="40" required="required">
+                    </div>
+
+                    <br>
+
+                    <div class="labelStyle">
+                        <label for="GET-email">Email </label>
+                    </div>
+
+                    <div class="inputStyle">
+                        <input id="GET-email" type="email" name="email" maxlength="50" required="required">
+                    </div>
+
+                    <br>
+
+                    <div class="labelStyle">
+                    <label for="GET-comments">Comments </label>
+                    </div>
+                    <div class="inputStyle">
+                        <textarea id="GET-comments" name="Comments" rows="5" cols = "50"
+                                  placeholder="Add your comments here..."></textarea>
+                    </div>
+                    <br>
+
+                    <div class="labelStyle"></div>
+
+                    <div class="inputStyle">
+                        <input id="submitButton" type="submit" value="Submit">
+                        <br>
+                    </div>
+                </form>
+            </main>
+        </div>
+
+<!----------------------- Footer that contains mini site-map and copyright declaration -------------------------------->
+        <footer>
+            <div id = "footerInfo">
+                <p> COM1008 | Web and Internet Technology </p>
+            </div>
+
+            <div id="copyright">
+                <p>&copy Kristofer Box</p>
+            </div>
+
+            <div id="miniSitemap">
+                <ul>
+                    <li><a href="About Me.html">About Me</a></li>
+                    <li><a href="Degree.html">My Degree</a></li>
+                    <li><a href="News.html">News</a></li>
+                    <li><a href="The Diamond.html">The Diamond</a></li>
+                    <li><a href="Contact.html">Contact Me</a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

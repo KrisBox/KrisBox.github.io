@@ -1,0 +1,159 @@
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    Main CSS Styling for every page (Normal)
+    Author: Kristofer Box
+    Created: 10/11/2015
+    Last Updated: 07/12/2015
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ General Tags ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+body {
+    font-family: Tahoma, Geneva, sans-serif;
+    background-color: #CFCFC4;
+    min-width: 400px;
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    font-size: 4em;
+
+}
+
+header h1 a {
+    text-decoration: none;
+    color: #DCDCDC;
+}
+
+span {
+    color:#404040;
+}
+
+
+figcaption {
+    font-size: 0.5em;
+    text-align: center;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ End General Tags ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Wrapper Tags ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+#headAndNavWrapper {
+    width: auto;
+    position: fixed;
+    left: 0;
+    right: 0;
+    background-color: #779ECB;
+    color: #DCDCDC;
+}
+
+#otherWrapper {
+    margin: auto;
+    padding: 12em 0;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ End Wrapper Tags ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Header Tags ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+#Title {
+    padding: 0 0 1em 0;
+}
+
+#accessibility {
+    text-align: right;
+    padding: 0.5em 0.5em 0 0;
+    font-size: 1.25em;
+}
+
+#accessibility a {
+    text-decoration: none;
+    outline: none;
+    color: #DCDCDC;
+}
+
+#accessibility a:hover {
+    color:#404040;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ End Header Tags ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Navigation Tags ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+nav {
+    text-align: center;
+    border-radius: 12px;
+}
+
+nav ul {
+    padding: 1em 4em 1.5em 4em;
+    list-style: none;
+
+}
+
+nav ul li {
+    padding: 3em;
+    display: inline;
+    color: #F0F0F0;
+}
+
+nav a {
+    font-size: 1.8em;
+    text-decoration: none;
+    outline: none;
+    color: #F0F0F0;
+}
+
+nav a:visited {
+    color: #F0F0F0;
+}
+
+nav a:hover {
+    color: #404040;
+}
+
+ul.mobileNav {
+    display: none;
+}
+
+.navButton {
+    display:none;
+    font-size: 1.5em;
+    padding: 1.5em;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ End Navigation Tags ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Footer Tags ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+footer {
+    width: 100%;
+    background-color: #779ECB;
+    color: #DCDCDC;
+    padding: 0.5em 0;
+}
+
+footer p {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#miniSitemap {
+    font-size: 1em;
+    padding: 1em;
+}
+
+#miniSitemap ul {
+    list-style: none;
+
+    text-align: center;
+}
+
+#miniSitemap ul li {
+    display: inline;
+}
+
+#miniSitemap a {
+    text-decoration: none;
+    outline: none;
+    color: #DCDCDC;
+}
+
+#miniSitemap a:hover {
+    color:#404040;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ End Footer Tags ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/

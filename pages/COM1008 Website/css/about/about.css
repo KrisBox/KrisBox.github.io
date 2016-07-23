@@ -1,0 +1,116 @@
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    CSS Styling for the About Page (Normal)
+    Author: Kristofer Box
+    Created: 10/11/2015
+    Last Updated: 07/12/2015
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ General Tags ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+img {
+    height: 100%;
+    width: 100%;
+    display: block;
+    border-radius: 5px;
+}
+
+main {
+    width: 75%;
+    float:left;
+    font-size: 1.3em;
+    background-color: #CFCFC4;
+    color: #404040;
+}
+
+main h2 {
+    font-size: 2em;
+    padding: 1em 0 0 0.5em;
+    text-align: center;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ End General Tags ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Wrapper Tags ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+#mainWrapper {
+    display: table;
+}
+
+#mainWrapper h2 {
+    width: 100%;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ End Wrapper Tags ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Main Tags ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+#mainTop {
+    padding: 0.5em;
+    display:flex;
+    flex-direction: row-reverse;
+    -webkit-flex-direction: row-reverse;
+}
+
+#mainMiddle {
+    padding: 0.5em;
+    display:flex;
+}
+
+#mainBottom {
+    padding: 0.5em;
+    display:flex;
+    flex-direction: row-reverse;
+    -webkit-flex-direction: row-reverse;
+}
+
+#mainTopText {
+    width: 60%;
+    padding: 0.5em;
+}
+
+#mainMiddleText {
+    width: 60%;
+    padding: 0.5em;
+}
+
+#mainBottomText {
+    width: 60%;
+    padding: 0.5em;
+}
+
+
+#mainTopImage {
+    width:40%;
+    padding: 0.5em;
+}
+
+#mainMiddleImage {
+    width: 40%;
+    padding: 0.5em;
+}
+
+#mainBottomImage {
+    width: 40%;
+    padding: 0.5em;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ End Main Tags ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Fun Facts Tags ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+aside {
+    width: 25%;
+    float: right;
+    font-size: 1.3em;
+    background-color: #779ECB;
+    color: #DCDCDC;
+}
+
+aside h2 {
+    width: 50%;
+    text-align: center;
+    font-size: 2em;
+    padding: 1em 0;
+}
+
+article {
+    text-align: center;
+    padding: 2em 0.5em;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ End Fun Facts Tags ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+

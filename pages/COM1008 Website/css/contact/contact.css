@@ -1,0 +1,77 @@
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    CSS Styling for the Contact Page (Normal)
+    Author: Kristofer Box
+    Created: 10/11/2015
+    Last Updated: 07/12/2015
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ General Tags ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+main {
+    width: 100%;
+    float:left;
+    font-size: 1.3em;
+    background-color: #CFCFC4;
+    color: #404040;
+}
+
+main h2 {
+    font-size: 2em;
+    padding: 1em 0;
+    text-align: center;
+}
+
+main p {
+    padding: 1em;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ End General Tags ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Form Tags ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+form {
+    width: 50%;
+    margin: auto;
+}
+
+.labelStyle {
+    width: 25%;
+    float: left;
+    text-align: right;
+    padding: 0.5em 0;
+}
+
+.labelStyle label {
+    padding: 0 0.2em;
+}
+
+.inputStyle {
+    width: 75%;
+    float:left;
+    margin: auto;
+    padding: 0.5em 0;
+}
+
+.inputStyle input {
+    width: 75%;
+    padding: 0.6em 0.3em;
+    border-radius: 10px;
+    max-width: 75%;
+}
+
+.inputStyle #submitButton {
+    border-radius: 20px;
+    background-color: #779ECB;
+    border-color: transparent;
+    color: #DCDCDC;
+    font-size: 1.2em;
+}
+
+.inputStyle textarea {
+    width: 75%;
+    padding: 0.5em 0.3em;
+    border-radius: 10px;
+    border-style: none;
+    max-width: 75%;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ End Form Tags ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<!----------------------------------------------------------------------------------------------------------------------
+        Index page for the COM1008 assessment
+        Author: Kristofer Box
+        Created: 10/11/2015
+        Last Updated: 07/12/2015
+----------------------------------------------------------------------------------------------------------------------->
+    <meta charset="UTF-8">
+    <title>Homepage | COM1008 Web and Technology</title>
+    <script src="javascript/menuAction.js"></script>
+    <link href="css/reset.css" rel="stylesheet"/>
+    <link href="css/main/main.css" rel="stylesheet"/>
+    <link href="css/main/mainWide.css" rel="stylesheet"/>
+    <link href="css/main/mainNarrow.css" rel="stylesheet"/>
+    <link href="css/main/mainMobile.css" rel="stylesheet"/>
+    <link href="css/index/index.css" rel="stylesheet"/>
+    <link href="css/index/indexNarrow.css" rel="stylesheet"/>
+    <link href="css/index/indexMobile.css" rel="stylesheet"/>
+</head>
+
+<body>
+
+<div id="headAndNavWrapper">
+<!--------------------- Header that includes the title and link to the accessibility page ----------------------------->
+    <header>
+        <div id="accessibility">
+            <a href="pages/Accessibility.html">Accessibility</a>
+        </div>
+        <div id="Title">
+            <h1>Kristofer <span>J.</span> Box</h1>
+        </div>
+    </header>
+<!--------------------- Navigation bar that resizes easily depending on size of the screen ---------------------------->
+    <nav>
+        <a href="#" id="toggleMenu" class="navButton"><img src="images/Menu Button.png" alt="Open Menu"/></a>
+
+        <!--- The normal navigation bar that is disabled when a mobile is detected --->
+        <ul id="normalNav">
+            <li><a href="pages/About Me.html">About Me</a></li>
+            <li><a href="pages/Degree.html">My Degree</a></li>
+            <li><a href="pages/News.html">News</a></li>
+            <li><a href="pages/The Diamond.html">The Diamond</a></li>
+            <li><a href="pages/Contact.html">Contact Me</a></li>
+        </ul>
+
+        <!--- The mobile navigation that is activated when a mobile is detected --->
+        <ul class="mobileNav" id="menu">
+            <li><a href="pages/About Me.html">About Me</a></li>
+            <li><a href="pages/Degree.html">My Degree</a></li>
+            <li><a href="pages/News.html">News</a></li>
+            <li><a href="pages/The Diamond.html">The Diamond</a></li>
+            <li><a href="pages/Contact.html">Contact Me</a></li>
+        </ul>
+    </nav>
+
+    <!--- Script for Mobile Menu --->
+    <script src="javascript/menuAction.js"></script>
+</div>
+    <div id="otherWrapper">
+        <div id="mainWrapper">
+<!---------------- Main content that contents informative text and images for the user to see ------------------------->
+            <main>
+                <h2>Welcome</h2>
+
+                <div id="mainTop">
+                    <div id="mainTopImage">
+                        <figure>
+                            <img src="images/homepage/picture_of_me.jpg" alt="Picture of me and my flat on bonfire
+                                    evening.">
+                        </figure>
+                    </div>
+                    <div id="mainTopText">
+                        <p>
+                            Welcome to the COM1008 website. I am Kristofer Box and I study Computer Science at
+                            The University of Sheffield. On this website you can see everything is very clear
+                            and intuitive to use. The navigation bar above sends you to the other pages and pressing
+                            my name in the header will simply bring you back to this page from any of the others. As
+                            you may have already noticed, the website works responsively on any device and adjusts
+                            accordingly. To help you, just in case you may not have JavaScript enabled, in the footer
+                            there is a mini site-map allowing you to still get around on with a smaller screen. If
+                            you want to get back to this page from any of the others, just press my name at the top
+                            of any page.
+                        </p>
+                    </div>
+                </div>
+
+                <div id="mainBottom">
+                    <div id="mainBottomImage">
+                        <figure>
+                            <img src="images/homepage/block.jpg" alt="Picture of the building that I live in.">
+                        </figure>
+                    </div>
+                    <div id="mainBottomText">
+                        <p>
+                            At the very top right you can see an accessibility link. This just explains that there
+                            has been consideration taken for anybody with a disability and the website will work
+                            the same. Below I will talk about the pages in the website to get you started.<br><br>
+                            The about me page goes in depth about who I am and where I am from. The degree page
+                            talks about what modules I do in the first semester. The news page will inform you
+                            about things I have been up to since arriving in Sheffield and starting this degree. The
+                            Diamond page talks about the magnificent new building which all of the content served
+                            in the first year is given. Finally, the contact page will allow you to email me with
+                            any comments you may have about the website or just in general. Don't be shy!
+                        </p>
+                    </div>
+                </div>
+            </main>
+
+<!------------------ Side bar that contains snippets of the news articles with links to them -------------------------->
+        <aside>
+            <h2>News</h2>
+            <article>
+                <p>
+                    Read about my birthday on the 28th November, a first for me in Sheffield, a very enjoyable
+                    and memorable day spent with friends and family.
+                </p>
+                <div class="linkButton">
+                    <a href="pages/News.html">
+                        <button>More</button>
+                    </a>
+                </div>
+            </article>
+
+            <article>
+                <p>
+                    Read about my first week being an undergraduate in The University of Sheffield. From
+                    learning about modules to free pizza and beer, a very fun week indeed.
+                </p>
+                <div class="linkButton">
+                    <a href="pages/News.html">
+                        <button>More</button>
+                    </a>
+                </div>
+            </article>
+
+            <article>
+                <p>
+                    Read about moving to the University on the 21st September 2015. From Burnley, through Snakes
+                    Pass into Sheffield and moving in, a very excitable but upsetting day to say the least.
+                </p>
+                <div class="linkButton">
+                    <a href="pages/News.html">
+                        <button>More</button>
+                    </a>
+                </div>
+            </article>
+        </aside>
+    </div>
+
+
+<!----------------------- Footer that contains mini site-map and copyright declaration --------------------------------->
+    <footer>
+        <div id="footerInfo">
+            <p> COM1008 | Web and Internet Technology </p>
+        </div>
+
+        <div id="copyright">
+            <p>&copy Kristofer Box</p>
+        </div>
+
+        <div id="miniSitemap">
+            <ul>
+                <li><a href="pages/About Me.html">About Me</a></li>
+                <li><a href="pages/Degree.html">My Degree</a></li>
+                <li><a href="pages/News.html">News</a></li>
+                <li><a href="pages/The Diamond.html">The Diamond</a></li>
+                <li><a href="pages/Contact.html">Contact Me</a></li>
+            </ul>
+        </div>
+    </footer>
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<!----------------------------------------------------------------------------------------------------------------------
+        News page for the COM1008 assessment
+        Author: Kristofer Box
+        Created: 10/11/2015
+        Last Updated: 07/12/2015
+----------------------------------------------------------------------------------------------------------------------->
+    <meta charset="UTF-8">
+    <title>News | COM1008 Web and Technology</title>
+    <link href="../css/reset.css" rel="stylesheet" />
+    <link href="../css/main/main.css" rel="stylesheet"/>
+    <link href="../css/main/mainWide.css" rel = "stylesheet" />
+    <link href="../css/main/mainNarrow.css" rel = "stylesheet" />
+    <link href="../css/main/mainMobile.css" rel = "stylesheet" />
+    <link href="../css/news/news.css" rel = "stylesheet" />
+    <link href="../css/news/newsNarrow.css" rel = "stylesheet" />
+    <link href="../css/news/newsMobile.css" rel = "stylesheet" />
+</head>
+
+<body>
+    <div id="headAndNavWrapper">
+<!--------------------- Header that includes the title and link to the accessibility page ----------------------------->
+        <header>
+            <div id="accessibility">
+                <a href="Accessibility.html">Accessibility</a>
+            </div>
+            <div id="Title">
+                <h1><a href="../index.html">Kristofer <span>J.</span> Box</a></h1>
+            </div>
+        </header>
+
+<!--------------------- Navigation bar that resizes easily depending on size of the screen ---------------------------->
+        <nav>
+            <a href="#" id="toggleMenu" class="navButton"><img src="../images/Menu Button.png" alt="Open Menu" /></a>
+
+            <!--- The normal navigation bar that is disabled when a mobile is detected --->
+            <ul id="normalNav">
+                <li><a href="About Me.html">About Me</a></li>
+                <li><a href="Degree.html">My Degree</a></li>
+                <li><a href="News.html">News</a></li>
+                <li><a href="The Diamond.html">The Diamond</a></li>
+                <li><a href="Contact.html">Contact Me</a></li>
+            </ul>
+
+            <!--- The mobile navigation that is activated when a mobile is detected --->
+            <ul class="mobileNav" id="menu">
+                <li><a href="About Me.html">About Me</a></li>
+                <li><a href="Degree.html">My Degree</a></li>
+                <li><a href="News.html">News</a></li>
+                <li><a href="The Diamond.html">The Diamond</a></li>
+                <li><a href="Contact.html">Contact Me</a></li>
+            </ul>
+        </nav>
+
+        <!--- Script for Mobile Menu --->
+        <script src="../javascript/menuAction.js"></script>
+    </div>
+    <div id="otherWrapper">
+        <div id="mainWrapper">
+<!----------- Shows all the news content posted since arriving at te university with images and dates ----------------->
+            <main>
+                <h2>News</h2>
+                <article id="news1">
+                    <h3>My Birthday</h3>
+                    <h4>Date: 28th November 2015</h4>
+                    <div class="articleContainer">
+                        <img src="../images/news/birthday.jpg" width="400" height = "200"
+                             alt="Picture of the night of my birthday with the flat"/>
+                        <p>
+                            Saturday 28th November was my 19th birthday. Receiving all my cards and presents in the post
+                            in the week leading up to the day, I was getting more and more excited to spend my first
+                            birthday in Sheffield. Having my sister come and see me for the day and night truly made my
+                            birthday more enjoyable with spending the day at the christmas markets and winning 8-2 in the
+                            football. To top a good day off, we went to town during the night with the flat and my sister's
+                            friend. Genuinely a birthday to remember.
+                        </p>
+                    </div>
+                </article>
+                <hr>
+                <article id="news2">
+                    <h3>My First Week</h3>
+                    <h4>Date: 4th October 2015 </h4>
+                    <div class="articleContainer">
+                        <!-- Image belongs to the University of Sheffield. All rights reserved -->
+                        <img src="../images/news/robot_win.jpg" width="400" height = "200" alt="Image of when my team won
+                        the Lego Robot Football challenge."/>
+                        <p>
+                            This week was my first week as a Computer Scientist. It was a very interesting week, having
+                            introductions to what all my modules will be teaching throughout the year. I am very excited
+                            to be getting into this degree and to develop my skills in the field. Also this week, we met our
+                            tutors and was given free pizza and beer! A wonderful welcoming gift I must admit. I enjoy the
+                            busy timetable with the variety of areas being covered. Much preferred to some of my flat mates
+                            who only have a handful of hours per week. Also, we won the Lego Robot football competition!
+                        </p>
+                    </div>
+                </article>
+                <hr>
+                <article id="news3">
+                    <h3>Moving to the University!</h3>
+                    <h4>Date: 21st September 2015</h4>
+                    <div class="articleContainer">
+                        <img src="../images/news/flat.jpg" width="400" height = "200"
+                             alt="Picture of my flat just after moving in"/>
+                        <p>
+                            Today I moved into my flat. After a tedious journey from Burnley through Snakes Pass, and many
+                            trips up and down the stairs to move my stuff around, we are finally here and moving in! Meeting
+                            all my new flat mates is a real buzz, very excited to get to know them better. It was sad to see
+                            the parents leave but I am very excited to start the course next week. The picture to the right
+                            is an image of the room just after moving in.
+                        </p>
+                    </div>
+                </article>
+            </main>
+        </div>
+
+<!----------------------- Footer that contains mini site-map and copyright declaration -------------------------------->
+        <footer>
+            <div id = "footerInfo">
+                <p> COM1008 | Web and Internet Technology </p>
+            </div>
+
+            <div id="copyright">
+                <p>&copy Kristofer Box</p>
+            </div>
+
+            <div id="miniSitemap">
+                <ul>
+                    <li><a href="About Me.html">About Me</a></li>
+                    <li><a href="Degree.html">My Degree</a></li>
+                    <li><a href="News.html">News</a></li>
+                    <li><a href="The Diamond.html">The Diamond</a></li>
+                    <li><a href="Contact.html">Contact Me</a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

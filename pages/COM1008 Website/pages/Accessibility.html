@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<!----------------------------------------------------------------------------------------------------------------------
+        Accessibility page for the COM1008 assessment
+        Author: Kristofer Box
+        Created: 10/11/2015
+        Last Updated: 07/12/2015
+----------------------------------------------------------------------------------------------------------------------->
+    <meta charset="UTF-8">
+    <title>Accessibility | COM1008 Web and Technology</title>
+    <link href="../css/reset.css" rel="stylesheet" />
+    <link href="../css/main/main.css" rel="stylesheet"/>
+    <link href="../css/main/mainWide.css" rel = "stylesheet" />
+    <link href="../css/main/mainNarrow.css" rel = "stylesheet" />
+    <link href="../css/main/mainMobile.css" rel = "stylesheet" />
+    <link href="../css/accessibility/accessibility.css" rel = "stylesheet" />
+    <link href="../css/accessibility/accessibilityMobile.css" rel="stylesheet" />
+    <link href="../css/accessibility/accessibilityNarrow.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div id="headAndNavWrapper">
+<!--------------------- Header that includes the title and link to the accessibility page ----------------------------->
+        <header>
+            <div id="accessibility">
+                <a href="Accessibility.html">Accessibility</a>
+            </div>
+            <div id="Title">
+                <h1><a href="../index.html">Kristofer <span>J.</span> Box</a></h1>
+            </div>
+        </header>
+
+<!--------------------- Navigation bar that resizes easily depending on size of the screen ---------------------------->
+        <nav>
+            <a href="#" id="toggleMenu" class="navButton"><img src="../images/Menu Button.png" alt="Open Menu" /></a>
+
+            <!--- The normal navigation bar that is disabled when a mobile is detected --->
+            <ul id="normalNav">
+                <li><a href="About Me.html">About Me</a></li>
+                <li><a href="Degree.html">My Degree</a></li>
+                <li><a href="News.html">News</a></li>
+                <li><a href="The Diamond.html">The Diamond</a></li>
+                <li><a href="Contact.html">Contact Me</a></li>
+            </ul>
+
+            <!--- The mobile navigation that is activated when a mobile is detected --->
+            <ul class="mobileNav" id="menu">
+                <li><a href="About Me.html">About Me</a></li>
+                <li><a href="Degree.html">My Degree</a></li>
+                <li><a href="News.html">News</a></li>
+                <li><a href="The Diamond.html">The Diamond</a></li>
+                <li><a href="Contact.html">Contact Me</a></li>
+            </ul>
+        </nav>
+
+        <!--- Script for Mobile Menu --->
+        <script src="../javascript/menuAction.js"></script>
+    </div>
+    <div id="otherWrapper">
+        <div id="mainWrapper">
+<!----------- Describes how the website is accessible for others who may have a disability or impairment -------------->
+            <main>
+                <h2>Accessibility</h2>
+                <p class="paragraph">
+                    In this website, I have made sure I have designed and created every element taking others into account.
+                    This particularly includes the disabled. I have made sure that all text is large and easy to read for the
+                    partially blind and that all images include alternative texts for screen readers.
+                </p>
+                <p class="paragraph">
+                    It also allows any other disability to perceive, understand, navigate and interact with the website in
+                    a way that they could normally. This ensures that the disabled will not feel neglected whilst using the
+                    website.
+                </p>
+
+                <p class="paragraph">
+                    This website also adheres to the web standards supplied by the World Wide Web Consortium. It also
+                    has been designed to work for the color blind. The colours chosen have all been picked to provide
+                    contrasts that will not effect the colour blind and to allow them to see the website just the same
+                    as any other person.
+                </p>
+            </main>
+        </div>
+
+<!----------------------- Footer that contains mini site-map and copyright declaration -------------------------------->
+        <footer>
+            <div id = "footerInfo">
+                <p> COM1008 | Web and Internet Technology </p>
+            </div>
+
+            <div id="copyright">
+                <p>&copy Kristofer Box</p>
+            </div>
+
+            <div id="miniSitemap">
+                <ul>
+                    <li><a href="About Me.html">About Me</a></li>
+                    <li><a href="Degree.html">My Degree</a></li>
+                    <li><a href="News.html">News</a></li>
+                    <li><a href="The Diamond.html">The Diamond</a></li>
+                    <li><a href="Contact.html">Contact Me</a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

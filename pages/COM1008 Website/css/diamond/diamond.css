@@ -1,0 +1,111 @@
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    CSS Styling for the Diamond Page (Normal)
+    Author: Kristofer Box
+    Created: 10/11/2015
+    Last Updated: 07/12/2015
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ General Tags ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+img {
+    height: 100%;
+    width: 100%;
+    display: block;
+    border-radius: 5px;
+}
+main {
+    font-size: 1.3em;
+    background-color: #CFCFC4;
+    color: #404040;
+}
+
+main h3 {
+    font-size: 1.5em;
+    text-align: center;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ End General Tags ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Wrapper Tags ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+#mainWrapper {
+    display: table;
+}
+
+#mainWrapper h2 {
+    width: 100%;
+    font-size: 2em;
+    padding: 1em 0;
+    text-align: center;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ End Wrapper Tags ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Main Tags ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+#mainImage {
+    width: 30em;
+    margin: auto;
+}
+
+#section1{
+    width:33.3%;
+    padding: 1em 0.5em;
+}
+
+#section2 {
+    width:33.3%;
+    padding: 1em 0.5em;
+}
+
+#section3 {
+    width:33.3%;
+    padding: 1em 0.5em;
+}
+
+#section1 p {
+    padding:0.5em 0;
+}
+
+#section2 p {
+    padding:0.5em 0;
+}
+
+#section3 p {
+    padding:0.5em 0;
+}
+
+#bottomImage1 {
+    width: 33.3%;
+    padding: 1em;
+}
+
+#bottomImage2 {
+    width: 33.3%;
+    padding: 1em;
+}
+
+#bottomImage3 {
+    width: 33.3%;
+    padding: 1em;
+}
+
+#bottomImage1 img {
+    width:80%;
+    margin: auto;
+}
+
+#bottomImage2 img {
+    width:80%;
+    margin: auto;
+}
+
+#bottomImage3 img {
+    width:80%;
+    margin: auto;
+}
+
+.flexBox {
+    display: flex;
+}
+
+.flexBoxImage {
+    display: flex;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ End Main Tags ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+

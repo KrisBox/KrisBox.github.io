@@ -1,0 +1,94 @@
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    CSS Styling for the Degree Page (Normal)
+    Author: Kristofer Box
+    Created: 10/11/2015
+    Last Updated: 07/12/2015
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ General Tags ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+img {
+    height: 100%;
+    width: 100%;
+    display: block;
+    border-radius: 5px;
+}
+
+h3 {
+    padding: 0.5em;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+main {
+    width: 100%;
+    font-size: 1.3em;
+    background-color: #CFCFC4;
+    color: #404040;
+}
+
+main h2 {
+    font-size: 2em;
+    padding: 1em 0 ;
+    text-align: center;
+}
+
+figcaption {
+    font-size: 0.5em;
+    text-align: center;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ End General Tags ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Wrapper Tags ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+#mainWrapper {
+    display: table;
+}
+
+#mainWrapper h2 {
+    width: 100%;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ End Wrapper Tags ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Main Tags ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.flexBox {
+    display: flex;
+    flex-flow: row-reverse;
+    -webkit-flex-direction: row-reverse;
+}
+
+#module1, #module3, #module5 {
+    width:50%;
+    float:left;
+    padding: 0.5em 0;
+}
+
+#module2, #module4, #module6 {
+    width:50%;
+    float:right;
+    padding: 0.5em 0;
+}
+
+.textArea {
+    width: 60%;
+    padding: 0.5em 0.5em 0.5em 0.75em;
+
+}
+
+.moduleImage {
+    width:40%;
+}
+
+.linkButton {
+    padding: 0.5em;
+
+}
+
+.linkButton button {
+    width: 90%;
+    height: 1.5em;
+    border-radius: 20px;
+    background-color: #779ECB;
+    border-color: transparent;
+    font-size: 1em;
+    color: #DCDCDC;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ End Main Tags ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/

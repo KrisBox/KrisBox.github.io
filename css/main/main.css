@@ -1,0 +1,326 @@
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    Main CSS Styling for every page (Normal)
+    Author: Kristofer Box
+    Created: 20/12/2015
+    Last Updated: 20/12/2015
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ General Tags ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:500,400);
+
+body {
+    font-family:  'Ubuntu', sans-serif;
+    font-weight: 500;
+    background-color: #212121;  /*#616161*/
+    min-width: 600px;
+    color:#9E9E9E;
+}
+
+a:hover{
+    color: #009688;
+}
+
+h1{
+    font-size: 2.5em;
+}
+
+header {
+    text-align: center;
+    padding: 2em 0;
+}
+
+header h1 {
+    font-size: 3.5em;
+    color: #009688;
+}
+
+
+span {
+    color:#009688;
+}
+
+figcaption {
+    font-size: 0.5em;
+    text-align: center;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ End General Tags ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Wrapper Tags ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+#navWrapper{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 6%;
+    background: #212121;
+    text-align: center;
+    /*: 10px 0 25px -2px #404040;*/
+
+
+}
+
+#otherWrapper {
+    position: relative;
+    margin-left: 10%;
+    width: 87.5%;
+    padding: 0 1em;
+
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ End Wrapper Tags ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Main Tags ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+main{
+    text-align: center;
+}
+main p{
+    text-align: center;
+    padding: 2em 0;
+    font-size: 1.1em;
+}
+main h3{
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+}
+main h1{
+    text-align: center;
+}
+
+main a{
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #9E9E9E;
+
+}
+
+main a:hover {
+    color: #009688;
+}
+
+#aboutPage, #workPage, #contactPage{
+    display: none;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ End Main Tags ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Header Tags ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+#Title {
+    padding: 0 0 1em 0;
+}
+
+#accessibility {
+    text-align: right;
+    padding: 0.5em 0.5em 0 0;
+    font-size: 1.25em;
+}
+
+#accessibility a {
+    text-decoration: none;
+    outline: none;
+    color: #DCDCDC;
+}
+
+#accessibility a:hover {
+    color:#404040;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ End Header Tags ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Navigation Tags ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.active{
+    color:#009688;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    margin-bottom:25px;
+    padding-top: 2em;
+
+}
+
+nav a {
+    font-size: 1.8em;
+    text-decoration: none;
+    outline: none;
+    color: #9E9E9E;
+}
+
+.Extras a{
+    font-size: 1.5em;
+}
+
+nav a:hover {
+    color: #009688;
+}
+
+ul.mobileNav {
+    display: none;
+}
+
+#mobileButton{
+    display:none;
+}
+
+#navWrapper img{
+    float: left;
+    margin-left: 12.5%;
+}
+
+.line{
+    padding: 0.5em;
+    height: 5em;
+}
+
+.lineX{
+    padding: 0.5em;
+    height: 3em;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ End Navigation Tags ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Work Tags ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+#work{
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    -webkit-flex-direction: row;
+    justify-content: center;
+    -webkit-justify-content: center;
+}
+.imageLink{
+    min-height: 18%;
+    min-width: 33%;
+    max-height: 18%;
+    max-width: 33%;
+    text-align: center;
+    overflow: hidden;
+    padding: 0.5em;
+}
+
+.imageLink img{
+    min-height: 20em;
+    min-width: 100%;
+    max-height: 20em;
+    max-width: 100%;
+    text-align: center;
+    margin-left: 0;
+    background-color: #9E9E9E;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    overflow: hidden;
+}
+
+
+.imageLink figure:hover img{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.imageLink h3{
+    margin-top: 2em;
+}
+.imageLink p{
+    font-size: 1em;
+    padding: 0.5em;
+    color: #9E9E9E;
+}
+
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ End Work Tags ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Form Tags ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+form{
+    width: 50%;
+    color: #9E9E9E;
+    text-align: center;
+    margin: auto;
+}
+
+label{
+    font-size: 1.5em;
+}
+
+select:focus{
+    outline: none;
+}
+
+input, textarea, select{
+    font-size: 1.2em;
+    width: 75%;
+    height: 2em;
+    background: transparent;
+    border: 2px solid #009688;
+    color:#9E9E9E;
+    margin-bottom: 1.5em;
+    margin-top: 0.5em;
+    border-radius: 10px;
+    padding: 0.25em;
+}
+
+select{
+    background: #212121;
+    padding: 0.5em;
+}
+
+textarea{
+    font-size: 1.2em;
+    max-width: 75%;
+    min-width: 75%;
+    height: 10em;
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ End Form Tags ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Footer Tags ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.socialText{
+    padding-top: 2em;
+    color: #9E9E9E;
+    margin: 0;
+    font-size:1.8em;
+    height:3em;
+}
+
+.Extras{
+    color: #9E9E9E;
+    margin: 0;
+    height: 5em;
+}
+
+.Extras img{
+    float: left;
+    margin-left: 12.5%;
+}
+
+footer{
+    text-align: center;
+    color:#9E9E9E;
+    bottom: 20px;
+    width: inherit;
+    position: fixed;
+}
+
+footer a{
+    padding: 2em 0;
+    text-decoration: none;
+    outline: none;
+    color: #9E9E9E;
+}
+
+footer a:hover{
+    color: #009688;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ End Footer Tags ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/

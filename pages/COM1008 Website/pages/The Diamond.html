@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<!----------------------------------------------------------------------------------------------------------------------
+        The Diamond page for the COM1008 assessment
+        Author: Kristofer Box
+        Created: 10/11/2015
+        Last Updated: 07/12/2015
+----------------------------------------------------------------------------------------------------------------------->
+
+    <meta charset="UTF-8">
+    <title>The Diamond | COM1008 Web and Technology</title>
+    <link href="../css/reset.css" rel="stylesheet" />
+    <link href="../css/main/main.css" rel="stylesheet"/>
+    <link href="../css/main/mainWide.css" rel = "stylesheet" />
+    <link href="../css/main/mainNarrow.css" rel = "stylesheet" />
+    <link href="../css/main/mainMobile.css" rel = "stylesheet" />
+    <link href="../css/diamond/diamond.css" rel = "stylesheet" />
+    <link href="../css/diamond/diamondNarrow.css" rel = "stylesheet" />
+    <link href="../css/diamond/diamondMobile.css" rel = "stylesheet" />
+</head>
+
+<body>
+    <div id="headAndNavWrapper">
+<!--------------------- Header that includes the title and link to the accessibility page ----------------------------->
+        <header>
+            <div id="accessibility">
+                <a href="Accessibility.html">Accessibility</a>
+            </div>
+            <div id="Title">
+                <h1><a href="../index.html">Kristofer <span>J.</span> Box</a></h1>
+            </div>
+        </header>
+
+<!--------------------- Navigation bar that resizes easily depending on size of the screen ---------------------------->
+        <nav>
+            <a href="#" id="toggleMenu" class="navButton"><img src="../images/Menu Button.png" alt="Open Menu" /></a>
+
+            <!--- The normal navigation bar that is disabled when a mobile is detected --->
+            <ul id="normalNav">
+                <li><a href="About Me.html">About Me</a></li>
+                <li><a href="Degree.html">My Degree</a></li>
+                <li><a href="News.html">News</a></li>
+                <li><a href="The Diamond.html">The Diamond</a></li>
+                <li><a href="Contact.html">Contact Me</a></li>
+            </ul>
+
+            <!--- The mobile navigation that is activated when a mobile is detected --->
+            <ul class="mobileNav" id="menu">
+                <li><a href="About Me.html">About Me</a></li>
+                <li><a href="Degree.html">My Degree</a></li>
+                <li><a href="News.html">News</a></li>
+                <li><a href="The Diamond.html">The Diamond</a></li>
+                <li><a href="Contact.html">Contact Me</a></li>
+            </ul>
+        </nav>
+
+        <!--- Script for Mobile Menu --->
+        <script src="../javascript/menuAction.js"></script>
+    </div>
+    <div id="otherWrapper">
+        <div id="mainWrapper">
+<!----------- Shows images of the new diamond building with descriptions of what it is and who it's for --------------->
+            <main>
+                <h2>The Diamond</h2>
+                <div id="mainImage">
+                    <img src="../images/diamond/diamond.jpg" width="600" height = "300"
+                         alt="Picture of the Diamond from the outside"/>
+                </div>
+
+
+                <div class="flexBox">
+                    <div id="section1">
+                        <h3>About The Diamond</h3>
+                        <p>
+                            The Diamond is a brand new 81 Million pound building opened by The University of Sheffield
+                            in September 2015. It boasts the most update technology whilst giving a futuristic warm feel to
+                            students and staff alike.
+                        </p>
+                    </div>
+
+                    <div id="section2">
+                        <h3>Who uses it?</h3>
+                        <p>
+                            The Diamond is opened to all staff and students 24/7. Mainly used by engineering students, it
+                            provides the lecture theatres needed and study areas for catch up. The Diamond contains 9 lecture
+                            theatres, one containing 400 seats and 8 smaller ones in the basement and upper levels.
+                        </p>
+                    </div>
+
+                    <div id="section3">
+                        <h3>What makes it so good?</h3>
+                        <p>
+                            Boasting a clean room, virtual reality suite, pilot plant and many other laboratories for
+                            engineering students, and computer labs for Computer Scientists, the Diamond has the facilities
+                            to cater for any seminar or tutorial.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="flexBoxImage">
+                    <div id="bottomImage1">
+                        <img src="../images/diamond/ground.jpg" width="400" height = "200"
+                             alt ="Picture of the ground floor of the Diamond"/>
+                    </div>
+
+                    <div id="bottomImage2">
+                        <img src="../images/diamond/lecture.jpg" width="400" height = "200"
+                             alt ="Picture of a lecture theatre in the Diamond"/>
+                    </div>
+
+                    <div id="bottomImage3">
+                        <img src="../images/diamond/study.jpg" width="400" height = "200"
+                             alt ="Picture of the study area in the Diamond"/>
+                    </div>
+                </div>
+            </main>
+        </div>
+
+<!----------------------- Footer that contains mini site-map and copyright declaration -------------------------------->
+        <footer>
+            <div id = "footerInfo">
+                <p> COM1008 | Web and Internet Technology </p>
+            </div>
+
+            <div id="copyright">
+                <p>&copy Kristofer Box</p>
+            </div>
+
+            <div id="miniSitemap">
+                <ul>
+                    <li><a href="About Me.html">About Me</a></li>
+                    <li><a href="Degree.html">My Degree</a></li>
+                    <li><a href="News.html">News</a></li>
+                    <li><a href="The Diamond.html">The Diamond</a></li>
+                    <li><a href="Contact.html">Contact Me</a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

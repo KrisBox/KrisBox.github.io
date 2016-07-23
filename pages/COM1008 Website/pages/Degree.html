@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<!----------------------------------------------------------------------------------------------------------------------
+        Degree page for the COM1008 assessment
+        Author: Kristofer Box
+        Created: 10/11/2015
+        Last Updated: 07/12/2015
+----------------------------------------------------------------------------------------------------------------------->
+    <meta charset="UTF-8">
+    <title>Degree | COM1008 Web and Technology</title>
+    <link href="../css/reset.css" rel="stylesheet" />
+    <link href="../css/main/main.css" rel="stylesheet"/>
+    <link href="../css/main/mainWide.css" rel = "stylesheet" />
+    <link href="../css/main/mainNarrow.css" rel = "stylesheet" />
+    <link href="../css/main/mainMobile.css" rel = "stylesheet" />
+    <link href="../css/degree/degree.css" rel = "stylesheet" />
+    <link href="../css/degree/degreeNarrow.css" rel = "stylesheet" />
+    <link href="../css/degree/degreeMobile.css" rel = "stylesheet" />
+</head>
+
+<body>
+	<div id="headAndNavWrapper">
+<!--------------------- Header that includes the title and link to the accessibility page ----------------------------->
+		<header>
+			<div id="accessibility">
+				<a href="Accessibility.html">Accessibility</a>
+			</div>
+			<div id="Title">
+				<h1><a href="../index.html">Kristofer <span>J.</span> Box</a></h1>
+			</div>
+		</header>
+
+<!--------------------- Navigation bar that resizes easily depending on size of the screen ---------------------------->
+		<nav>
+			<a href="#" id="toggleMenu" class="navButton"><img src="../images/Menu Button.png" alt="Open Menu" /></a>
+			
+			<!--- The normal navigation bar that is disabled when a mobile is detected --->
+			<ul id="normalNav">
+				<li><a href="About Me.html">About Me</a></li>
+				<li><a href="Degree.html">My Degree</a></li>
+				<li><a href="News.html">News</a></li>
+				<li><a href="The Diamond.html">The Diamond</a></li>
+				<li><a href="Contact.html">Contact Me</a></li>
+			</ul>
+
+			<!--- The mobile navigation that is activated when a mobile is detected --->
+			<ul class="mobileNav" id="menu">
+				<li><a href="About Me.html">About Me</a></li>
+				<li><a href="Degree.html">My Degree</a></li>
+				<li><a href="News.html">News</a></li>
+				<li><a href="The Diamond.html">The Diamond</a></li>
+				<li><a href="Contact.html">Contact Me</a></li>
+			</ul>
+		</nav>
+
+		<!--- Script for Mobile Menu --->
+		<script src="../javascript/menuAction.js"></script>
+	</div>
+	<div id="otherWrapper">
+		<div id="mainWrapper">
+		
+<!---------- Displays the modules taught in the first year, with links to their full pages and images ----------------->	
+			<main>
+				<h2>My Degree</h2>
+
+		<!-- All information for module descriptions are adapted versions taken from the University's module pages. -->
+
+				<div id="module1">
+					<h3>COM1001 | Introduction to Software Engineering</h3>
+					<div class="flexBox">
+						<div class="moduleImage">
+							<figure>
+								<img src="../images/degree/COM1001/kanban.jpg" alt = "Picture of a Kanban Board"
+									 width="200" height = "100"/>
+								<figcaption><a href="https://en.wikipedia.org/wiki/Kanban_board">
+									Image found at: https://en.wikipedia.org/wiki/Kanban_board</a></figcaption>
+							</figure>
+						</div>
+						<div class="textArea">
+							<p>
+								This module introduces concepts that are needed to develop software systems in teams
+								all the way from analysis to design and testing. It encourages teamwork between students
+								by a major web-based system accounting to a large part of the module marks.
+							</p>
+							<div class="linkButton">
+								<a  href="modulePages/COM1001.html"><button>More</button></a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div id="module2">
+					<h3>COM1002 | Foundations of Computer Science</h3>
+					<div class="flexBox">
+						<div class="moduleImage">
+							<figure>
+								<img src="../images/degree/COM1002/settheory.png" alt="Image of Set Theory"
+									 width="200" height = "100"/>
+							</figure>
+						</div>
+						<div class="textArea">
+							<p>
+								This module introduces key mathematical concepts and techniques that are of foundational
+								importance to computing. It enhances student's logical thinking whilst preparing students
+								for future courses and work.
+							</p>
+							<div class="linkButton">
+								<a  href="modulePages/COM1002.html"><button>More</button></a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div id="module3">
+					<h3>COM1003 | Java Programming</h3>
+					<div class="flexBox">
+						<div class="moduleImage">
+							<figure>
+								<img src="../images/degree/COM1003/Java1.png" alt="Picture of some Java code I have written"
+									 width="200" height = "100"/>
+							</figure>
+						</div>
+						<div class="textArea">
+							<p>
+								This module introduces the basic programming techniques needed by the students through the
+								Java language. Students learn about the basic structures of a program while later going onto
+								more advanced topics such as object-oriented programming.
+							</p>
+							<div class="linkButton">
+								<a  href="modulePages/COM1003.html"><button>More</button></a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div id="module4">
+					<h3>COM1005 | Machines and Intelligence</h3>
+					<div class="flexBox">
+						<div class="moduleImage">
+							<figure>
+								<img src="../images/degree/COM1005/robot.png" width="200" height = "100"
+									 alt ="Picture of a humanoid robot."/>
+								<figcaption>
+									<a href="https://en.wikipedia.org/wiki/Dalle_Molle_Institute_for_Artificial_Intelligence_Research">
+									Image found at Wikipedia</a>
+								</figcaption>
+							</figure>
+						</div>
+						<div class="textArea">
+							<p>
+								This module introduces the basic concepts of Artificial Intelligence. It begins talking
+								about the history of AI and an introduction to popular AI topics such as visual processing
+								and machine learning.
+							</p>
+							<br>
+							<div class="linkButton">
+								<a  href="modulePages/COM1005.html"><button>More</button></a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div id="module5">
+					<h3>COM1006 | Devices and Networks</h3>
+					<div class="flexBox">
+						<div class="moduleImage">
+							<figure>
+								<img src="../images/degree/COM1006/logisim.png" alt="Picture of a circuit built in logisim."
+									 width="200" height = "100"/>
+							</figure>
+						</div>
+						<div class="textArea">
+							<p>
+								This module introduces the basic concepts of how computer architecture works including
+								digital logic, assembly programming and computer arithmetic. All this information leads to
+								how the CPU works down to its minimum.
+							</p>
+							<div class="linkButton">
+								<a  href="modulePages/COM1006.html"><button>More</button></a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div id="module6">
+					<h3>COM1008 | Web and Internet Technology</h3>
+					<div class="flexBox">
+						<div class="moduleImage">
+							<figure>
+								<img src="../images/degree/COM1008/dom.png" alt="Picture of the document object model"
+									 width="200" height = "100"/>
+								<figcaption><a href="https://commons.wikimedia.org/wiki/File:Dom_tree.png">
+									Image found at https://commons.wikimedia.org/wiki/File:Dom_tree.png</a></figcaption>
+							</figure>
+						</div>
+						<div class="textArea">
+							<p>
+								This module introduces how to create responsive websites using the popular HTML, CSS, and
+								JavaScript languages. It also introduces the ideas of networking protocols and how information
+								is sent across the Internet.
+							</p>
+							<div class="linkButton">
+								<a  href="modulePages/COM1008.html"><button>More</button></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</main>
+		</div>
+		
+<!----------------------- Footer that contains mini site-map and copyright declaration -------------------------------->
+		<footer>
+			<div id = "footerInfo">
+				<p> COM1008 | Web and Internet Technology </p>
+			</div>
+
+			<div id="copyright">
+				<p>&copy Kristofer Box</p>
+			</div>
+
+			<div id="miniSitemap">
+				<ul>
+					<li><a href="About Me.html">About Me</a></li>
+					<li><a href="Degree.html">My Degree</a></li>
+					<li><a href="News.html">News</a></li>
+					<li><a href="The Diamond.html">The Diamond</a></li>
+					<li><a href="Contact.html">Contact Me</a></li>
+				</ul>
+			</div>
+		</footer>
+	</div>
+</body>
+
+</html>

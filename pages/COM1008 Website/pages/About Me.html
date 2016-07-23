@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<!----------------------------------------------------------------------------------------------------------------------
+        About Me page for the COM1008 assessment
+        Author: Kristofer Box
+        Created: 10/11/2015
+        Last Updated: 07/12/2015
+----------------------------------------------------------------------------------------------------------------------->
+
+    <meta charset="UTF-8">
+    <title>About Me | COM1008 Web and Technology</title>
+    <link href="../css/reset.css" rel="stylesheet" />
+    <link href="../css/main/main.css" rel="stylesheet"/>
+    <link href="../css/main/mainWide.css" rel = "stylesheet" />
+    <link href="../css/main/mainNarrow.css" rel = "stylesheet" />
+    <link href="../css/main/mainMobile.css" rel = "stylesheet" />
+    <link href="../css/about/about.css" rel = "stylesheet" />
+    <link href="../css/about/aboutNarrow.css" rel = "stylesheet" />
+    <link href="../css/about/aboutMobile.css" rel = "stylesheet" />
+</head>
+
+<body>
+    <div id="headAndNavWrapper">
+<!--------------------- Header that includes the title and link to the accessibility page ----------------------------->
+        <header>
+            <div id="accessibility">
+                <a href="Accessibility.html">Accessibility</a>
+            </div>
+            <div id="Title">
+                <h1><a href="../index.html">Kristofer <span>J.</span> Box</a></h1>
+            </div>
+        </header>
+<!--------------------- Navigation bar that resizes easily depending on size of the screen ---------------------------->
+        <nav>
+            <a href="#" id="toggleMenu" class="navButton"><img src="../images/Menu Button.png" alt="Open Menu" /></a>
+
+            <!--- The normal navigation bar that is disabled when a mobile is detected --->
+            <ul id="normalNav">
+                <li><a href="About Me.html">About Me</a></li>
+                <li><a href="Degree.html">My Degree</a></li>
+                <li><a href="News.html">News</a></li>
+                <li><a href="The Diamond.html">The Diamond</a></li>
+                <li><a href="Contact.html">Contact Me</a></li>
+            </ul>
+
+            <!--- The mobile navigation that is activated when a mobile is detected --->
+            <ul class="mobileNav" id="menu">
+                <li><a href="About Me.html">About Me</a></li>
+                <li><a href="Degree.html">My Degree</a></li>
+                <li><a href="News.html">News</a></li>
+                <li><a href="The Diamond.html">The Diamond</a></li>
+                <li><a href="Contact.html">Contact Me</a></li>
+            </ul>
+        </nav>
+
+        <!--- Script for Mobile Menu --->
+        <script src="../javascript/menuAction.js"></script>
+    </div>
+    <div id="otherWrapper">
+        <div id="mainWrapper">
+<!---------------- Main content that contents information about me and images related to this ------------------------->
+            <main>
+                <h2>About Me</h2>
+
+                <div id="mainTop">
+                    <div id="mainTopImage">
+                        <figure>
+                            <img src="../images/about/family.jpg" alt = "Image of me and my family.">
+                        </figure>
+                    </div>
+                    <div id="mainTopText">
+                        <p>
+                            My name is Kristofer Box and I reside from a small town in Lancashire called Burnley. I am
+                            18 and currently studying the first year of Computer Science at the University of Sheffield.
+                            I previously attended a college in Burnley named 'Burnley College' where I achieved my A Levels
+                            in the Summer of 2015. Now currently living in the village of Endcliffe accommodation with 9
+                            other flat mates, I am quickly reaching the end of my first semester. Whilst studying at the
+                            university, I wish to become an efficient programmer and web based specialist.
+                        </p>
+                    </div>
+                </div>
+
+                <div id="mainMiddle">
+                    <div id="mainMiddleImage">
+                        <figure>
+                            <img src="../images/about/turf.jpg" alt = "Picture of Burnley FC's Stadium. Proud supporter">
+                            <figcaption><a href="https://en.wikipedia.org/wiki/Turf_Moor">Image found at:
+                                https://en.wikipedia.org/wiki/Turf_Moor</a></figcaption>
+                        </figure>
+                    </div>
+                    <div id="mainMiddleText">
+                        <p>
+                            Whilst not at the university I live in a medium sized town house with my mother, step father
+                            and sister. Named Susan, Graeme and Amie respectively, we all reside from Burnley and have
+                            2 cats called Max and Claude. The rest of my family are spread across the country in
+                            Manchester, Newcastle, Cambridge. Close relatives of mine also live in New York in the United
+                            States of America.<br>
+                            After my unfortunate parent split, my father moved to Cambridge and married my step mother
+                            Allison, who has two children called Sam and Matt. He moved closer to my Grandma in Cambridge
+                            and has stayed there ever since.
+                        </p>
+                    </div>
+                </div>
+
+                <div id="mainBottom">
+                    <div id="mainBottomImage">
+                        <figure>
+                            <img src="../images/about/canal.jpg" alt = "Picture of Leeds and Liverpool canal that
+                            runs through Burnley.">
+                            <figcaption><a href="http://www.geograph.org.uk/photo/4349474">
+                                Image found at: http://www.geograph.org.uk/photo/4349474
+                            </a></figcaption>
+                        </figure>
+                    </div>
+                    <div id="mainBottomText">
+                        <p>
+                            My home town, Burnley, is situated in the east of Lancashire in the Pennine hill range. A 15
+                            minute drive from West Yorkshire and half an hour drive from Manchester, it has close
+                            connections to major hubs. As a popular industrial and football town, proudly supported by
+                            Prince Charles himself, Burnley has a rich heritage and history. The popular Pendle hill is
+                            located closely to Burnley making it a good location for walking hobbyists.
+                        </p>
+                    </div>
+                </div>
+            </main>
+
+<!-------------------- Side bar that contains fun facts about me, my family and my home town -------------------------->
+            <aside>
+                <h2>Fun Facts!</h2>
+                <article>
+                    <p>
+                        The odd spelling of my name, Kristofer, is derived from the famous actor and singer Kris
+                        Kristofferson. This odd name spelling is a theme in the family as my sisters name is spelt Amie
+                        instead of the conventional Amy.
+                    </p>
+                </article>
+                <article>
+                    <p>
+                        Burnley FC is most known for its involvement in the creation of the Football League with 11
+                        other teams in 1888. Even to this day, they are still progressing well in the Football League.
+                    </p>
+                </article>
+                <article>
+                    <p>
+                        In high school, I was surprisingly given the role of Head Boy for year 11 despite the popularity
+                        and expectations of other students leaving mass arguments amongst other students, a very fun
+                        year indeed!
+                    </p>
+                </article>
+            </aside>
+
+        </div>
+
+<!----------------------- Footer that contains mini site-map and copyright declaration -------------------------------->
+        <footer>
+            <div id = "footerInfo">
+                <p> COM1008 | Web and Internet Technology </p>
+            </div>
+            <div id="copyright">
+                <p>&copy Kristofer Box</p>
+            </div>
+            <div id="miniSitemap">
+                <ul>
+                    <li><a href="About Me.html">About Me</a></li>
+                    <li><a href="Degree.html">My Degree</a></li>
+                    <li><a href="News.html">News</a></li>
+                    <li><a href="The Diamond.html">The Diamond</a></li>
+                    <li><a href="Contact.html">Contact Me</a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,86 @@
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    CSS Styling for the Contact Page (Mobile)
+    Author: Kristofer Box
+    Created: 10/11/2015
+    Last Updated: 07/12/2015
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Query for Mobile ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+@media screen and (max-width: 800px){
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ General Tags ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+    main {
+        float: none;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+
+    main h2 {
+        text-align: center;
+        padding: 0.5em 0;
+    }
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ End General Tags ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Form Tags ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+    form {
+        width: 100%;
+        margin: auto;
+    }
+
+    .labelStyle {
+        width: 100%;
+        float: none;
+        text-align: center;
+        padding: 0.2em 0;
+        display: block;
+    }
+
+    .labelStyle label {
+        padding: 0;
+    }
+
+    .inputStyle {
+        width: 100%;
+        float:none;
+        margin: auto;
+        padding: 0 0;
+        display: block;
+    }
+
+    .inputStyle input {
+        display: block;
+        width: 90%;
+        padding: 0.6em 0;
+        border-radius: 10px;
+        max-width: 100%;
+        margin: auto;
+    }
+
+    .inputStyle #submitButton {
+        border-radius: 20px;
+        background-color: #779ECB;
+        border-color: transparent;
+        color: #DCDCDC;
+        font-size: 1.2em;
+        width: 100%;
+    }
+
+    .inputStyle textarea {
+        width: 100%;
+        padding: 0.5em 0.3em;
+        border-radius: 10px;
+        border-style: none;
+        max-width: 90%;
+    }
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ End Form Tags ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Footer Tags ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+    footer {
+        width: 100%;
+        margin: auto;
+    }
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ End Footer Tags ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ End Query for Mobile ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/

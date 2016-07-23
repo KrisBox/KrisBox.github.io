@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<!----------------------------------------------------------------------------------------------------------------------
+        Demonstration Keyboard page for the COM1008 assessment
+        Author: Kristofer Box
+        Created: 20/11/2015
+        Last Updated: 07/12/2015
+----------------------------------------------------------------------------------------------------------------------->
+    <meta charset="UTF-8">
+    <title>JavaScript Mouse Demonstration | COM1008 Web and Technology</title>
+    <link href="../../css/reset.css" rel="stylesheet" />
+    <link href="../../css/main/main.css" rel="stylesheet"/>
+    <link href="../../css/main/mainWide.css" rel = "stylesheet" />
+    <link href="../../css/main/mainNarrow.css" rel = "stylesheet" />
+    <link href="../../css/main/mainMobile.css" rel = "stylesheet" />
+    <link href="../../css/modules/demonstration.css" rel = "stylesheet" />
+
+    <script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+</head>
+
+<body>
+<div id="headAndNavWrapper">
+<!--------------------- Header that includes the title and link to the accessibility page ----------------------------->
+    <header>
+        <div id="accessibility">
+            <a href="../Accessibility.html">Accessibility</a>
+        </div>
+        <div id="Title">
+            <h1><a href="../../index.html">Kristofer <span>J.</span> Box</a></h1>
+        </div>
+    </header>
+<!--------------------- Navigation bar that resizes easily depending on size of the screen ---------------------------->
+    <nav>
+        <a href="#" id="toggleMenu" class="navButton"><img src="../../images/Menu Button.png" alt="Open Menu" /></a>
+
+        <!--- The normal navigation bar that is disabled when a mobile is detected --->
+        <ul id="normalNav">
+            <li><a href="../About Me.html">About Me</a></li>
+            <li><a href="../Degree.html">My Degree</a></li>
+            <li><a href="../News.html">News</a></li>
+            <li><a href="../The Diamond.html">The Diamond</a></li>
+            <li><a href="../Contact.html">Contact Me</a></li>
+        </ul>
+
+        <!--- The mobile navigation that is activated when a mobile is detected --->
+        <ul class="mobileNav" id="menu">
+            <li><a href="../About Me.html">About Me</a></li>
+            <li><a href="../Degree.html">My Degree</a></li>
+            <li><a href="../News.html">News</a></li>
+            <li><a href="../The Diamond.html">The Diamond</a></li>
+            <li><a href="../Contact.html">Contact Me</a></li>
+        </ul>
+    </nav>
+
+    <!--- Script for Mobile Menu --->
+    <script src="../../javascript/menuAction.js"></script>
+</div>
+<div id="otherWrapper">
+    <div id="mainWrapper">
+<!----------------------------------------------------------------------------------------------------------------------
+            This page shows how the canvas works and how JavaScript can be used to interpret it in different ways.
+            In this canvas, a game of pong has been made and can be played with the mouse.
+ ----------------------------------------------------------------------------------------------------------------------->
+        <main>
+            <h2>JavaScript Mouse Demonstration</h2>
+
+            <p>Play the simple JavaScript game of Pong and aim to beat the other player. First to 7 wins!</p>
+            <p> This mouse version lets you play just by moving your mouse up and down. Just press play to see.</p>
+
+            <button id="start">Play</button>
+
+            <!--- Text added here at the end of the game with the winners name. --->
+            <div id="winnerArea">
+            </div>
+            <br>
+            <canvas id="pongMouse" width="600" height="400"></canvas>
+
+            <!--- Script for the game --->
+            <script src="../../javascript/demonstrationMouse.js"></script>
+        </main>
+
+
+    </div>
+
+<!----------------------- Footer that contains mini site-map and copyright declaration -------------------------------->
+    <footer>
+        <div id = "footerInfo">
+            <p> COM1008 | Web and Internet Technology </p>
+        </div>
+
+        <div id="copyright">
+            <p>&copy Kristofer Box</p>
+        </div>
+
+        <div id="miniSitemap">
+            <ul>
+                <li><a href="../About Me.html">About Me</a></li>
+                <li><a href="../Degree.html">My Degree</a></li>
+                <li><a href="../News.html">News</a></li>
+                <li><a href="../The Diamond.html">The Diamond</a></li>
+                <li><a href="../Contact.html">Contact Me</a></li>
+            </ul>
+        </div>
+    </footer>
+</div>
+</body>
+
+</html>

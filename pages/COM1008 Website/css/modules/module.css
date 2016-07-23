@@ -1,0 +1,159 @@
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    CSS Styling for the Module Page (Normal)
+    Author: Kristofer Box
+    Created: 20/11/2015
+    Last Updated: 07/12/2015
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ General Tags ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+img {
+    height: 50%;
+    width: 100%;
+    display: block;
+    border-radius: 5px;
+}
+
+main {
+    float: left;
+    font-size: 1.3em;
+    background-color: #CFCFC4;
+    color: #404040;
+    width: 70%;
+}
+
+main h3 {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+main p {
+    padding: 0.5em 0;
+}
+
+figcaption {
+    font-size: 0.5em;
+    text-align: center;
+}
+
+ul li {
+    list-style: circle;
+    padding: 0 0.5em;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ End General Tags ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Wrapper Tags ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+#mainWrapper {
+    display: table;
+}
+
+#mainWrapper h2 {
+    width: 100%;
+    font-size: 2em;
+    padding: 1em 0;
+    text-align: center;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ End Wrapper Tags ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Main Tags ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+#mainImage {
+    width: 30em;
+    margin: auto;
+}
+
+.turing img {
+    height: 20em;
+    width: 20em;
+    margin:auto;
+}
+#bottomImage1 {
+    width: 33.3%;
+    padding: 1em;
+}
+
+#bottomImage2 {
+    width: 33.3%;
+    padding: 1em;
+}
+
+#bottomImage3 {
+    width: 33.3%;
+    padding: 1em;
+}
+
+#bottomImage1 img {
+    width:80%;
+    margin: auto;
+}
+
+#large img {
+    margin: auto;
+    width: 70%;
+    height: 10em;
+}
+#bottomImage2 img {
+    width:80%;
+    margin: auto;
+}
+#bottomImage3 img {
+    width:80%;
+    margin: auto;
+}
+
+.flexBox {
+    display: flex;
+}
+
+.flexBoxImage {
+    display: flex;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ End Main Tags ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Link Tags ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+aside {
+    float: right;
+    width: 30%;
+    background-color: #779ECB;
+    color: #DCDCDC;
+}
+
+aside h2 {
+    padding: 1em 0;
+}
+
+#buttons {
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+}
+
+.linkButton {
+    padding: 3em;
+
+}
+
+.linkButtonBlue {
+    width: 50%;
+    padding: 0.5em;
+}
+
+.linkButtonBlue button {
+    width: 100%;
+    margin: auto;
+    height: 3em;
+    background-color: #779ECB;
+    border-color: transparent;
+    color:#F0F0F0;
+    border-radius: 20px;
+}
+
+.linkButton button {
+    width: 100%;
+    margin: auto;
+    height: 4em;
+    border-radius: 20px;
+    background-color: #CFCFC4;
+    border-color: transparent;
+    font-size: 1.5em;
+    color: #404040;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ End Link Tags ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/

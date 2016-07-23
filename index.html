@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Kristofer Box</title>
+        <link href="css/reset.css" rel="stylesheet" />
+        <link href="css/main/main.css" rel="stylesheet" id="mainCSS"/>
+        <script src="javascript/jquery-2.1.4.js"></script>
+        <script src="javascript/hoverIntent.js"></script>
+        <script src="javascript/checkMobile.js"></script>
+    </head>
+    <body>
+        <div id="navWrapper">
+            <nav>
+                <!--- The normal navigation bar that is disabled when a mobile is detected --->
+                <ul id="normalNav">
+                    <div class="line">
+                        <li id><a id = "homeLink" href="#">
+                            <img src="images/main/home.svg">
+                            <div id="homeText" class="active"></div>
+                        </a></li>
+                    </div>
+                    <div class="line">
+                        <li><a id = "aboutLink" href="#">
+                            <img src="images/main/about_me.svg">
+                            <div id="aboutText"></div>
+                        </a></li>
+                    </div>
+                    <div class="line">
+                        <li><a id = "workLink" href="#">
+                            <img src="images/main/work.svg">
+                            <div id="workText"></div>
+                        </a></li>
+                    </div>
+                    <div class="line">
+                        <li><a id = "contactLink" href="#">
+                            <img src="images/main/contact.svg">
+                            <div id="contactText"></div>
+                        </a></li>
+                    </div>
+
+                    <div class="socialText"></div>
+                    <nav>
+                        <ul class="Extras">
+                            <div class="lineX">
+                                <li><a href="https://www.facebook.com/kristofer.box.5" target="_blank">
+                                    <img src="images/main/facebook.svg">
+                                    <div id="facebookText"></div>
+                                </a></li>
+                            </div>
+                            <div class="lineX">
+                                <li><a href="https://twitter.com/KrisB96" target="_blank">
+                                    <img src="images/main/twitter.svg">
+                                    <div id="twitterText"></div>
+                                </a></li>
+                            </div>
+                            <div class="lineX">
+                                <li><a href="https://www.instagram.com/kris_box96/" target="_blank">
+                                    <img src="images/main/instagram.svg">
+                                    <div id="instagramText"></div>
+                                </a></li>
+                            </div>
+                            <div class="lineX">
+                                <li><a href="https://github.com/CommonID" target="_blank">
+                                    <img src="images/main/github.svg">
+                                    <div id="githubText"></div>
+                                </a></li>
+                            </div>
+                        </ul>
+                    </nav>
+                </ul>
+
+
+
+                <div id="mobileButton">
+                    <img src="images/main/menu.svg">
+                </div>
+
+                <!--- The mobile navigation that is activated when a mobile is detected --->
+                <ul class="mobileNav" id="menu">
+                    <div class="line">
+                        <li><a href="#">
+                            <img src="images/main/home.svg">
+                            <div class="mobHomeText active">home.</div>
+                        </a></li>
+                    </div>
+                    <div class="line">
+                        <li><a href="#">
+                            <img src="images/main/about_me.svg">
+                            <div class="mobAboutText">about me.</div>
+                        </a></li>
+                    </div>
+                    <div class="line">
+                        <li><a href="#">
+                            <img src="images/main/work.svg">
+                            <div class="mobWorkText">work.</div>
+                        </a></li>
+                    </div>
+                    <div class="line">
+                        <li><a href="#">
+                            <img src="images/main/contact.svg">
+                            <div class="mobContactText">contact.</div>
+                        </a></li>
+                    </div>
+
+                    <div class="socialText">social.</div>
+                    <div class="Extras">
+                        <ul>
+                            <li><a href="https://www.facebook.com/kristofer.box.5" target="_blank">
+                                <img src="images/main/facebook.svg">
+                            </a></li>
+                            <li><a href="https://twitter.com/KrisB96" target="_blank">
+                                <img src="images/main/twitter.svg">
+                            </a></li>
+                            <li><a href="https://www.instagram.com/kris_box96/" target="_blank">
+                                <img src="images/main/instagram.svg">
+                            </a></li>
+                            <li><a href="https://github.com/CommonID" target="_blank">
+                                <img src="images/main/github.svg">
+                            </a></li>
+                        </ul>
+                    </div>
+                </ul>
+            </nav>
+
+
+            <!--- Script for Mobile Menu --->
+            <script src="javascript/changePage.js"></script>
+            <script src="javascript/menuAction.js"></script>
+            <script src="javascript/MenuRespond.js"></script>
+
+
+        </div>
+        <div id="otherWrapper">
+            <main>
+                <header>
+                    <h1>Kristofer J. Box</h1>
+                </header>
+
+                <div id="homePage">
+                    <h1>welcome to my website.</h1>
+                    <p>
+                        My name is Kristofer Box and this is my personal website where you will find out everything you
+                        need to know about me and what I do.<br><br> The website has been created as a personal space and to accompany my CV.<br><br>
+                        It consists of four sections: This homepage, an about me page, the work I do and how to
+                        contact me. Please feel free to look around and learn about me.<br>
+                        You will notice how the website is very responsive for both desktop and mobile, making it easy for anybody
+                        to use no matter where they are.<br>
+                    </p>
+
+                    <h3>Thank you for visiting!</h3>
+                </div>
+
+                <div id="aboutPage">
+                    <h1>about me.</h1>
+                    <p>
+                        I am a Computer Science Masters Undergraduate at the University of Sheffield studying my first
+                        year. However I reside from Burnley, a small town in the North near Manchester.<br>
+
+                        My Computer Science career started when I was younger, dabbling in <span>Python</span>
+                        until eventually using it as a
+                        language in college.<br> Now I am competent using
+                        <span>HTML</span>, <span>CSS</span>, <span>JavaScript</span>,
+                        <span>Ruby</span>, <span>Java</span> and <span>C#</span>
+                        giving me a diverse range of programming skills. You can see these skills in practise on my Work page
+                        or going onto my github page through the social links.
+                    </p>
+
+                </div>
+
+                <div id="workPage">
+                    <h1>my work.</h1>
+                    <p>
+                        On this page, you can see all the work I've made or contributed to making.
+                    </p>
+                    <div id="work">
+                        <div class = "imageLink">
+                            <figure id="work1">
+                                <a href="pages/COM1008 Website/index.html">
+                                    <img src="images/work/com1008.png" alt = "COM1008 website link">
+                                </a>
+
+                            </figure>
+                            <h3>Module Website</h3>
+                            <p>
+                                A website I created for an assignment in University. As you will see upon viewing,
+                                this website does take some inspiration from this but both are very structurally
+                                different.
+                            </p>
+                        </div>
+
+                        <div class = "imageLink">
+                            <figure id="work2">
+                                    <a href="http://the-java-hub.herokuapp.com">
+                                    <img src="images/work/java.jpg" alt = "The JavaHub website Link">
+                                    </a>
+                            </figure>
+
+                            <h3>The JavaHub</h3>
+                            <p>
+                                A special website made by me which lets you see Java tutorials, code snippets and exercise.
+                                <br><br> IN ACTIVE DEVELOPMENT <br>DUE: LATE SUMMER 2016.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="contactPage">
+                    <h1>contact me.</h1>
+                    <p>
+                        On this page, you can email me a comment or enquiry in which I will promptly reply to.
+                    </p>
+
+                    <form method="post" action ="php/email.php">
+                        <label for = "name">Name</label><br>
+                        <input id = "name" type="text" maxlength="40" required="required" name="name"
+                               placeholder="John Doe"><br>
+
+                        <label for = "email">Email Address</label><br>
+                        <input id = "email" type="email" required="required" name="email"
+                               placeholder="email@email.com"><br>
+
+                        <label for="type">Type of Comment</label><br>
+                        <select id="type" name="type" required="required">
+                            <option>General Comment</option>
+                            <option>Enquiry for Work</option>
+                        </select><br>
+
+
+                        <label for="comment">Comments</label><br>
+                        <textarea id="comment" name="comment" required="required"></textarea>
+
+                        <br>
+                        <input id="button" type="submit" name = "send" value="Send Message">
+                    </form>
+
+                </div>
+            </main>
+
+            <footer>
+                <a href="pages/disclaimer.html">Disclaimer</a><br><br>
+                <p>&copy 2016<br>Kristofer Box</p>
+            </footer>
+        </div>
+    </body>
+</html>
