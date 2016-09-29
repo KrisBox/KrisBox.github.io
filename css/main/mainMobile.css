@@ -12,6 +12,10 @@ a:hover{
     color: #009688;
 }
 
+a{
+    color: #009688;
+}
+
 h1{
     font-size: 2.5em;
 }
