@@ -53,7 +53,7 @@ jQuery(document).ready(function(){
                     display: 'none',
                     'padding-top': '0.5em'
                 }).text("linkedin.");
-                $('#linkedInText').append(facebookText);
+                $('#linkedInText').append(linkedText);
                 linkedText.fadeIn(1000);
 
                 var facebookText = $('#facebookText').css({
