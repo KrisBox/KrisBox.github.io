@@ -49,6 +49,13 @@ jQuery(document).ready(function(){
                 $('.socialText').append(socialText);
                 socialText.fadeIn(1000);
 
+                var linkedText = $('#linkedInText').css({
+                    display: 'none',
+                    'padding-top': '0.5em'
+                }).text("linkedin.");
+                $('#linkedInText').append(facebookText);
+                linkedText.fadeIn(1000);
+
                 var facebookText = $('#facebookText').css({
                     display: 'none',
                     'padding-top': '0.5em'
@@ -91,6 +98,7 @@ jQuery(document).ready(function(){
             $('#contactText').empty();
             $('.socialText').empty();
             $('#facebookText').empty();
+            $('#linkedInText').empty();
             $('#twitterText').empty();
             $('#instagramText').empty();
             $('#githubText').empty();

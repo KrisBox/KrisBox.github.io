@@ -2,7 +2,7 @@
     Main CSS Styling for every page (Normal)
     Author: Kristofer Box
     Created: 20/12/2015
-    Last Updated: 20/12/2015
+    Last Updated: 15/02/2017
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ General Tags ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
@@ -55,8 +55,6 @@ figcaption {
     background: #212121;
     text-align: center;
     /*: 10px 0 25px -2px #404040;*/
-
-
 }
 
 #otherWrapper {
@@ -64,7 +62,6 @@ figcaption {
     margin-left: 10%;
     width: 87.5%;
     padding: 0 1em;
-
 }
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ End Wrapper Tags ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
@@ -277,7 +274,6 @@ select{
 }
 
 
-
 textarea{
     font-size: 1.2em;
     max-width: 75%;
@@ -290,17 +286,16 @@ textarea{
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Footer Tags ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 .socialText{
-    padding-top: 2em;
+    padding-top: 1em;
     color: #9E9E9E;
     margin: 0;
     font-size:1.8em;
-    height:3em;
 }
 
 .Extras{
     color: #9E9E9E;
     margin: 0;
-    height: 5em;
+    padding-top: 3em;
 }
 
 .Extras img{
