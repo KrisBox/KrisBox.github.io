@@ -15,7 +15,7 @@
            $headers .= "\r\nReply-To: $email";
         }
 
-        $success = mail($to, $subject, $message, $headers, '‑fboxkristofer@yahoo.com');
+        $success = mail($to, $subject, $message, $headers, '‑fboxkristofer@yahoo.co.uk');
     }
 
 ?>
